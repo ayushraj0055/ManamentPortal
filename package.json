@@ -1,0 +1,17 @@
+{
+  "name": "managementportal",
+  "version": "1.0.0",
+  "description": "A complete, modern, full-stack Task Management System built with the MERN stack (MongoDB, Express.js, React, Node.js). This application features a premium dark-mode UI, JWT authentication, task filtering, statistics, and responsive design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "install-all": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
